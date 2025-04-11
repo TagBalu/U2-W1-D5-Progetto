@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 body {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -61,6 +62,15 @@ hr {
   margin: 0;
 }
 
+.trending {
+  display: flex;
+}
+
+.number {
+  font-size: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
 /* Hero */
 
 .conteiner-hero {
@@ -71,6 +81,9 @@ hr {
 
 h1 {
   font-size: 100px;
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  font-style: italic;
 }
 
 .hero {
@@ -114,8 +127,51 @@ h2 {
 .sideleft1 {
   display: flex;
   align-items: center;
+  margin-block: 30px;
+  justify-content: space-between;
 }
 
+h4 {
+  font-size: 20px;
+  padding-block: 10px;
+}
+
+.sideleft1 img {
+  max-width: 25%;
+}
 .sideleft1 span img {
   border-radius: 50%;
+}
+/* Right side*/
+.conteiner1 {
+  max-width: 70%;
+  margin-inline: auto;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.aside {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: fit-content;
+  margin-top: 15px;
+  padding-left: 20px;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+  border-bottom: solid 1px #e6e7e7;
+}
+.aside button {
+  border: solid 1px #e7e8e8;
+  margin-inline: 5px;
+  margin-block: 5px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+h5 {
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 10px;
 }
