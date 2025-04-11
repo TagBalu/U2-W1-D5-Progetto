@@ -157,7 +157,7 @@ h4 {
   max-height: fit-content;
   margin-top: 15px;
   padding-left: 20px;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-bottom: 30px;
   border-bottom: solid 1px #e6e7e7;
 }
